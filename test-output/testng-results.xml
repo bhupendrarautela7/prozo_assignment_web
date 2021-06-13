@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-13T14:12:01 IST" name="Suite" finished-at="2021-06-13T14:12:40 IST" duration-ms="39101">
+    <groups>
+    </groups>
+    <test started-at="2021-06-13T14:12:01 IST" name="Test Class 1" finished-at="2021-06-13T14:12:12 IST" duration-ms="10769">
+      <class name="test.Login">
+        <test-method signature="open_login_page()[pri:0, instance:test.Login@54d9d12d]" started-at="2021-06-13T14:12:01 IST" name="open_login_page" finished-at="2021-06-13T14:12:08 IST" duration-ms="6570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_login_page -->
+        <test-method signature="verify_presence_of_domain_name_input_field()[pri:1, instance:test.Login@54d9d12d]" started-at="2021-06-13T14:12:08 IST" name="verify_presence_of_domain_name_input_field" finished-at="2021-06-13T14:12:08 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_presence_of_domain_name_input_field -->
+        <test-method signature="enter_domain_name()[pri:2, instance:test.Login@54d9d12d]" started-at="2021-06-13T14:12:08 IST" name="enter_domain_name" finished-at="2021-06-13T14:12:08 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_domain_name -->
+        <test-method signature="verify_presence_of_domain_submit_button()[pri:3, instance:test.Login@54d9d12d]" started-at="2021-06-13T14:12:08 IST" name="verify_presence_of_domain_submit_button" finished-at="2021-06-13T14:12:08 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_presence_of_domain_submit_button -->
+        <test-method signature="submit_domain_name()[pri:4, instance:test.Login@54d9d12d]" started-at="2021-06-13T14:12:08 IST" name="submit_domain_name" finished-at="2021-06-13T14:12:08 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit_domain_name -->
+        <test-method signature="verify_presence_of_email_textbox()[pri:5, instance:test.Login@54d9d12d]" started-at="2021-06-13T14:12:08 IST" name="verify_presence_of_email_textbox" finished-at="2021-06-13T14:12:09 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_presence_of_email_textbox -->
+        <test-method signature="verify_presence_of_password_textbox()[pri:6, instance:test.Login@54d9d12d]" started-at="2021-06-13T14:12:09 IST" name="verify_presence_of_password_textbox" finished-at="2021-06-13T14:12:09 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_presence_of_password_textbox -->
+        <test-method signature="verify_presence_of_login_details_submit_button()[pri:7, instance:test.Login@54d9d12d]" started-at="2021-06-13T14:12:09 IST" name="verify_presence_of_login_details_submit_button" finished-at="2021-06-13T14:12:09 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_presence_of_login_details_submit_button -->
+        <test-method signature="enter_and_submit_invalid_login_details()[pri:8, instance:test.Login@54d9d12d]" started-at="2021-06-13T14:12:09 IST" name="enter_and_submit_invalid_login_details" finished-at="2021-06-13T14:12:10 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_and_submit_invalid_login_details -->
+        <test-method signature="verify_invalid_login_validation()[pri:9, instance:test.Login@54d9d12d]" started-at="2021-06-13T14:12:10 IST" name="verify_invalid_login_validation" finished-at="2021-06-13T14:12:12 IST" duration-ms="2041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_invalid_login_validation -->
+        <test-method signature="enter_and_submit_valid_login_details()[pri:10, instance:test.Login@54d9d12d]" started-at="2021-06-13T14:12:12 IST" name="enter_and_submit_valid_login_details" finished-at="2021-06-13T14:12:12 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_and_submit_valid_login_details -->
+      </class> <!-- test.Login -->
+    </test> <!-- Test Class 1 -->
+    <test started-at="2021-06-13T14:12:17 IST" name="Test Class 2" finished-at="2021-06-13T14:12:40 IST" duration-ms="23264">
+      <class name="test.NewItem">
+        <test-method is-config="true" signature="initbrowser(java.lang.String)[pri:0, instance:test.NewItem@6ed3ccb2]" started-at="2021-06-13T14:11:57 IST" name="initbrowser" finished-at="2021-06-13T14:12:01 IST" duration-ms="4184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initbrowser -->
+        <test-method signature="verify_dashboard_menu()[pri:3, instance:test.NewItem@6ed3ccb2]" started-at="2021-06-13T14:12:17 IST" name="verify_dashboard_menu" finished-at="2021-06-13T14:12:32 IST" duration-ms="14631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_dashboard_menu -->
+        <test-method signature="create_new_item()[pri:4, instance:test.NewItem@6ed3ccb2]" started-at="2021-06-13T14:12:32 IST" name="create_new_item" finished-at="2021-06-13T14:12:32 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_new_item -->
+        <test-method signature="check_negative_case_try_to_submit_form_without_data_values()[pri:5, instance:test.NewItem@6ed3ccb2]" started-at="2021-06-13T14:12:32 IST" name="check_negative_case_try_to_submit_form_without_data_values" finished-at="2021-06-13T14:12:32 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_negative_case_try_to_submit_form_without_data_values -->
+        <test-method signature="fill_form_to_create_new_item()[pri:6, instance:test.NewItem@6ed3ccb2]" started-at="2021-06-13T14:12:32 IST" name="fill_form_to_create_new_item" finished-at="2021-06-13T14:12:37 IST" duration-ms="4728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_form_to_create_new_item -->
+        <test-method signature="submit_add_new_item_with_valid_data()[pri:7, instance:test.NewItem@6ed3ccb2]" started-at="2021-06-13T14:12:37 IST" name="submit_add_new_item_with_valid_data" finished-at="2021-06-13T14:12:40 IST" duration-ms="3132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit_add_new_item_with_valid_data -->
+        <test-method signature="navigate_item_list_and_search_newly_added_sku_item()[pri:8, instance:test.NewItem@6ed3ccb2]" started-at="2021-06-13T14:12:40 IST" name="navigate_item_list_and_search_newly_added_sku_item" finished-at="2021-06-13T14:12:40 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_item_list_and_search_newly_added_sku_item -->
+        <test-method signature="verify_newly_added_sku_item()[pri:8, instance:test.NewItem@6ed3ccb2]" started-at="2021-06-13T14:12:40 IST" name="verify_newly_added_sku_item" finished-at="2021-06-13T14:12:40 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_newly_added_sku_item -->
+      </class> <!-- test.NewItem -->
+    </test> <!-- Test Class 2 -->
+  </suite> <!-- Suite -->
+</testng-results>
